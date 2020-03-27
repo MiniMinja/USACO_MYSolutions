@@ -1,0 +1,11 @@
+@echo off
+set /p d="What is the division?"
+set /p f="What is the month and year?[MMMYYYY]"
+set /p n="What is the name of the file?"
+cd %d%\%f%
+javac %n%.java
+java %n%
+cd ..
+cd ..
+pause
+
